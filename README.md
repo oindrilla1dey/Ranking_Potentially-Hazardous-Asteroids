@@ -20,9 +20,9 @@ Two small hinge-style adjustments slightly increase the score for:
 - low H values (brighter/larger objects)
 
 The final output includes:
-●	hazard_prob: continuous risk score from 0-1
-●	pred_hazard: Top-K classification (1/0) -> for precision check
-●	df_ranked: full dataset sorted by hazard_prob with 1-based danger_rank.
+hazard_prob: continuous risk score from 0-1
+pred_hazard: Top-K classification (1/0) -> for precision check
+df_ranked: full dataset sorted by hazard_prob with 1-based danger_rank.
 
 Quick views: printed Top 10, Middle 10, Bottom 10 to check extremes and the center of the ranking
 
